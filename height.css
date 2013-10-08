@@ -1,0 +1,40 @@
+
+
+
+.modal-backdrop {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(24,24,24, 0.8);
+}
+
+.modal {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  width: 50%;
+  margin: auto;
+  min-width: 950px;
+  min-height: 700px;
+  overflow: hidden;
+  background: white;
+  padding: 20px;
+}
+
+.variant-images,
+.hero,
+.details {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.details {
+  width: 390px;
+}
